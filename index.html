@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>ABCD-Institute of Software Engineering</title>
+    <link rel="icon" type="image/png" href="images/IJSE/IJSE_Logo-0100.png">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="row fixed-top">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg  bg-dark text-white ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/IJSE/IJSE_Logo-01.png" width="250px" height="50px" alt="">
+                </a>
+                <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fas fa-align-justify"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="courses.html"><i class="fas fa-graduation-cap"></i>Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html"><i class="fas fa-camera"></i>Event & News</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-align-left"></i>Our Students
+                            </a>
+                            <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown2">
+                                <a class="dropdown-item" href="comments.html">Student Comments</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-clipboard-list"></i> Discover ABCD
+                            </a>
+                            <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown1">
+                                <a class="dropdown-item" href="lecturer-panel.html">Lecture Panel</a>
+                                <a class="dropdown-item" href="about-us.html">About ABCD</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="fas fa-envelope-open"></i>Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="socialButtons">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f mr-3"></i></a></li>
+                            <li class="nav-item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin mr-3"></i></a></li>
+                            <li class="nav-item"><a href="https://www.youtube.com/"><i class="fab fa-youtube mr-3"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="row image-Slide">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/IJSE/Banner/Web%20Banner%2003-01.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/IJSE/Banner/Web%20Banner%2002-02.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/IJSE/Banner/Web%20Banner%2001-04.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/IJSE/Banner/Web%20Banner%2001-02.jpg" alt="fourth slide">
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="Form">
+        <form action="database.php" method="post">
+            <div class="container shadow p-3 mb-5 rounded">
+                <div class="form-group">
+                    <div></div>
+                    <h5 class="typewriter">Comprehensive Master Java Developer's new intake is now on</h5>
+                    <hr class="bg-white">
+                    <label for="courseName"></label>
+                    <select class="form-control" id="courseName" name="courseName" >
+                        <option>Select Your Course* </option>
+                        <option>CPJS-Certified Professional in JAVA & SQL </option>
+                        <option>DEP-Direct Entry Program </option>
+                        <option>DSE-Diploma in Software Engeneering </option>
+                        <option>ABSD-Advanced Business Solution Developer </option>
+                        <option>BCS-Higher Education Qualifications </option>
+                        <option>WAD-Web Application Developer</option>
+                    </select>
+                </div>
+                <div class=" row col-lg-10">
+                    <div class="col-lg-4">
+                        <label class="bold_texts">First Name*</label><br>
+                        <input type="text" name="fname" required="true" title="First Name should only letters. e.g. kavish" class="met_long_input met_input_text met_no_input_margin"/><br><br>
+                        <label class="bold_texts">Contact Number*</label><br>
+                        <input type="text" name="contactnumber" required="true" title="only contain 10 numbers . e.g. 0714303339"  onkeypress="return numbersonly(event)" onkeyup="return limitlength(this, 10);" class="met_long_input met_input_text met_no_input_margin"/><br><br>
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="bold_texts">Last Name*</label><br>
+                        <input type="text" name="lname" required="true" title="Last Name should only letters. e.g. manjitha" class="met_long_input met_input_text met_no_input_margin"/><br><br>
+                        <label class="bold_texts">Email*</label><br>
+                        <input type="email" name="email" required="true" title="Your Valid email address. e.g. kavishmanjitha@gmail.com"  class="met_long_input met_input_text met_no_input_margin"/><br><br>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="g-recaptcha" data-sitekey="6LcpkUcUAAAAAJXCHkcG94qCZ_cRuANT7IFPVtqP"></div>
+                        <input id="btnRegister" type="submit" name="submit" value="Register" class="btn btn-raised btn-default border-light">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="discripton">
+        <div class="container ">
+             <h4 class="text-center">Why is ABCD the only Choice for IT, Computer Science and Software Engineering?</h4>
+            <p class="text-center text-muted">Suranga Inspired by its mission “assisting the students to be qualified professionally and producing individuals
+                desired and demanded by the market standards of the existing setup”. ABCD, being a leading IT education provider
+                in Sri Lanka has produced over 4300 skillful IT professionals occupying eminent positions in many reputed
+                companies in the island. Since its inception in 2006, it focuses on enhancing the skills and attitudes
+                which are desperately sought by the IT industry. Obtaining a software engineering degree from ABCD opens
+                doors to countless possibilities in the industry both in Sri Lanka and abroad therefore ABCD is surely the
+                best institute for after A/L course programs in IT and Computer Science. Distinguished as the only Oracle
+                authorized training center in Sri Lanka, ABCD is undoubtedly the best choice for building a successful
+                career in software engineering industry. </p>
+        </div>
+   </div>
+    <!--///////////////////////////////////////////////////-->
+    <div class="core">
+        <div class="container">
+            <h4 class="text-center mb-3">The Fastest, Easiest Way To Be a Graduate Software Engineer in Sri Lanka</h4>
+            <img src="images/ijse101.png" alt="" style="width: 100%">
+        </div>
+    </div>
+    <div class="updates">
+        <div class="container bg-light border">
+            <br>
+            <h3 class="text-center latest-up">Latest Updates</h3>
+            <br>
+            <div class="row">
+                <div class="col-ms-3 mx-auto grow">
+                    <img class="" src="images/IJSE/31.jpg" alt="" style="width:370px; height:247px;"><br><br>
+                </div>
+                <div class="col-ms-3 mx-auto grow">
+                    <img src="images/IJSE/32.jpg" alt="" style="width:370px; height:247px;">
+                </div>
+                <div class="col-ms-3 mx-auto grow">
+                    <img src="images/IJSE/13.jpg" alt="" style="width:370px; height:247px;">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <p>Since 2015 ABCD was affiliate with bcs, The professionals always come all t
+                        he way from UK to maintain the quality product inside that of the institute.
+                        With the huge support from them , there are outrageous results produced from ABCD these years....</p>
+                    <a href="#" class="btn btn-raised btn-danger btn-sm">Read More</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>ABCD truly believes in accordance and realization of its vision “being the best
+                        facilitator in computer science”,by publicly recognizing students’ achievements
+                        and accomplishments is of vital importance. For the acknowledgment of the determination, commitment and academic...</p>
+                    <a href="#" class="btn btn-raised btn-danger btn-sm">Read More</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>At ABCD, we ‘re in the business of focusing on continuous enhancement of the proficiency
+                        of skills of our students, we believe that it is possible only with the right application
+                        of theory in. The project presentation and viva of batch number 21...</p>
+                    <a href="#" class="btn btn-raised btn-danger btn-sm">Read More</a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-ms-3 mx-auto grow">
+                    <img src="images/IJSE/34.jpg " alt="" style="width:370px; height:247px;"><br><br>
+                </div>
+                <div class="col-ms-3 mx-auto grow">
+                    <img src="images/IJSE/35.jpg " alt="" style="width:370px; height:247px;"><br><br>
+                </div>
+                <div class="col-ms-3 mx-auto grow">
+                    <img src="images/IJSE/23.jpg" alt="" style="width:370px; height:247px;"><br><br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <p>Since 2015 ABCD was affiliate with bcs, The professionals always come all t
+                        he way from UK to maintain the quality product inside that of the institute.
+                        With the huge support from them , there are outrageous results produced from ABCD these years....</p>
+                    <a href="#" class="btn btn-raised btn-danger btn-sm">Read More</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>ABCD truly believes in accordance and realization of its vision “being the best
+                        facilitator in computer science”,by publicly recognizing students’ achievements
+                        and accomplishments is of vital importance. For the acknowledgment of the determination, commitment and academic...</p>
+                    <a href="#" class="btn btn-raised btn-danger btn-sm">Read More</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>At ABCD, we ‘re in the business of focusing on continuous enhancement of the proficiency
+                        of skills of our students, we believe that it is possible only with the right application
+                        of theory in. The project presentation and viva of batch number 21...</p>
+                    <a href="#" class="btn btn-raised btn-danger btn-sm">Read More</a>
+                 </div>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="images/dfsd.jpg" alt="" style="width: 105%">
+            </div>
+            <div class="col-md-10">
+                <br>
+                <h4>Your Route to a Master Degree (MSc)</h4>
+                <br>
+                <p class="text-muted">
+                    Whether you are just starting out in your career, you have some experience, or you are changing your
+                    profession, qualifiations from ABCD, The Institute of Software Engineering will prepare you for a long
+                    and rewarding career in IT..
+                <p class="text-muted">Click here to see the degree path..</p>
+                    <a href="#" class="btn btn-raised btn-info"> READ MORE </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="row">
+         <div class="container">
+             <h4>We are the only Oracle Education/Technology provider in Sri Lanka</h4>
+             <p class="text-muted">It is since the year 2006 that we have been performing the task of educating students in order to prepare
+                 them for Oracle Examinations (previously presented by the Sun Microsystem). We are the only institute that
+                 carries out this process in a manner that truly produces a programmer
+                 who can face any real world problem rather than making our training just an exam oriented set
+                 of sessions where it is only the examination questions that are discussed equipping the students for the
+                 exam but no further. Our system of education has been able to create fully fledged programmers who excel in
+                 both theoretical and practical knowledge out of thousands of undergraduates. Our institute has been able to
+                 turn over as much as four thousand undergraduate students for the Oracle Examinations where they have displayed
+                 results that are rarely produced by any other Oracle educator in the world making ABCD without doubt the perfect
+                 choice for obtaining a recognized Software Engineering degree in Sri Lanka.</p>
+
+                 <p class="text-muted">Our institute has been able to turn over as much as four thousand undergraduate students for the Oracle Examinations where
+                     they have displayed results that are rarely produced by any other Oracle educator in the world making ABCD without doubt
+                     the perfect choice for obtaining a recognized Software Engineering degree in Sri Lanka.</p>
+        </div>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-5">
+                        <br><br>
+                        <img src="images/IJSE/phone.png" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-md-7">
+                        <h4>10th Anniversary</h4>
+                        <p class="text-muted">In last 10 years had produced 4200 software engineers to the nation....!</p>
+
+                           <p class="text-muted"> ABCD was started on the 10th January of 2006 in Colombo, opening doors for the younger generation to
+                            materialize their dream of becoming a software engineering / quality assurance Engineer through providing
+                            recognized qualifications in IT and Software Engineering. At the start ABCD marched forward with a highly
+                            dedicated team of ten individuals whose hard work resulted in opening the second branch in Anuradhapure. Within
+                            this short period of time, ABCD has achieved a leading position among the providers of Software Engineering
+                               degrees in Sri Lanka.</p>
+
+                           <p class="text-muted"> The uniqueness of realizing the demanded programmers and ABCD’s infinite flexibilities to explore new ways
+                            and best products could mark the journey a fast moving result oriented one. This achievement in short has
+                            made our degree in software engineering highly desired and sought after out of all other IT and Computer
+                            Science degrees in Sri Lanka. The Committed individuals of our team and student centered values have brought
+                               ABCD from 30 to 700 students following our various courses in IT and Software Engineering. Our records have
+                            indicated that we had produced more than 4200 valuable software engineering professionals to the nation, and
+                            as a Sri Lankan IT education Institute we are proud to say that, many students of our first batch were
+                            recruited by most prestigious software companies in Sri Lanka placing us above all other IT course providers
+                            from the very beginning of our journey as an institute for higher education in software engineering and
+                               IT/Computer Science.</p>
+
+                            <p class="text-muted">(Eg. Virtusa, IFS, John Keels, Millennium IT, etc..)</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <br><br>
+        <div class="container ">
+            <div class="met_split_30"></div>
+            <div class="met_content panel-body panel-white-panel " style="text-align: center;">
+                <iframe class="embed-responsive" width="956" height="538" src="https://www.youtube.com/embed/wTK6dLh27CI?list=PLJ4kKPa2uhXJRbEDmKAfgIk6sHAyKMFv1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="met_split_40"></div>
+        </div>
+
+<div class="footer container-fluid bg-dark">
+    <div class="container bg-dark text-muted">
+        <div class="row">
+            <div class="col-md-3">
+                <br><br>
+                 <img src="images/IJSE/IJSE_Logo-01.png" class="img-fluid" width="250px" height="50px" alt="">
+                <p>Institute of Software Engineering</p>
+                <p>Hotline: ++94713456789</p>
+                <p>E-Mail: info@abcd.lk</p>
+            </div>
+
+            <div class="col-md-3">
+                <br><br>
+                <h6 class="text-white">Colombo Branch</h6>
+                <br>Tel : +94713456789
+                <br>    : +94713456779
+                <br>    : +94713456769
+                <br>    : +94713456729</p>
+
+                <p>Address : #25/D 1/2,Galle Rd,Colombo 4.</p>
+                <h6 class="text-white">Anuradhapure Branch</h6>
+                <p>Tel : +94713456789 <br>
+                 : +94713456788 <br>
+                 Address : #20,Mihinthale,Anuradhapura.</p>
+            </div>
+
+            <div class="col-md-3">
+                <br><br>
+              <h6 class="text-white">Quick Links</h6>
+                <ul >
+                    <li><a   href="index.html">Home</a></li>
+                    <li><a   href="lecturer-panel.html">Lecture Panel</a></li>
+                    <li><a   href="comments.html">Student Comments</a></li>
+                    <li><a   href="courses.html">Courses</a></li>
+                    <li><a   href="events.html">Events And News</a></li>
+                    <li><a   href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+             <div class="col-md-3 find">
+                 <br><br>
+                 <h6 class="text-white mb-3">Find Us On</h6>
+                 <a href="https://www.facebook.com/"><i class="fab fa-facebook mr-3"></i></a>
+                 <a href="https://twitter.com/"><i class="fab fa-twitter-square mr-3"></i></a>
+                 <a href="https://www.linkedin.com/"><i class="fab fa-linkedin mr-3"></i></a>
+                 <a href="https://www.youtube.com/"><i class="fab fa-youtube mr-3"></i></a>
+                 <a href="https://plus.google.com/"><i class="fab fa-google-plus"></i></a>
+             </div>
+        </div>
+        <div class="row">
+            <div class="text-center col-md-12">
+                <h6>Copyright &copy; 2018 ABC Institute of Software Engineering. All rights reserved-Developed by <a
+                        href="https://www.facebook.com/themiya.gunasekara">Themiya Gunasekara</a></h6>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<script type="text/javascript" rel="script" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" rel="script" src="js/jquery-3.3.1.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
